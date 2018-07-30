@@ -1,9 +1,9 @@
 body {
   padding: 0px;
   margin: 0px;
-  color: #000;
+  color: #fff;
   font-family: 'Nunito';
-  background: url('../assets/background.jpg');
+  background: #000;
 
 }
 .content{
@@ -19,14 +19,14 @@ body {
 }
 
 .content a{
-  color: #dc143c;
+  color: #fff;
   text-decoration: none;
 }
 .content a:hover{
   color: #000fff;
 }
 .content h3{
-  text-shadow: 1px 1px #fff;
+  color: #fff;
   width: 100%;
   text-align: left;
 }
@@ -34,12 +34,12 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   font-family: Gotham;
-  color: #dc143c;
-  text-shadow: 2px 2px #fff;
+  color: #fff;
+  text-shadow: 2px 2px #000;
 }
 
 .title::first-letter{
-  color: #000;
+  color: #ff0000;
 }
 
 .deposit {
@@ -51,10 +51,11 @@ body {
 .deposit table {
   width: 100%;
   background: #ddd;
+  color: #000;
 }
 
 .deposit th {
-  background: #dc143c;
+  background: #ff0000;
   color: #fff;
 }
 .deposit table, td, th {
@@ -77,7 +78,6 @@ body {
 }
 .deposit label {
   display: block;
-  font-weight: bold;
   vertical-align: middle;
 }
 
