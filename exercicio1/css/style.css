@@ -1,98 +1,40 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  color: #fff;
-  font-family: 'Nunito';
-  background: #000;
 
-}
-.content{
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 50vw;
-  background-color: rgba(255, 255, 255, 0.15);
-  margin:auto;
-  text-align: center;
-  flex-flow: column;
-  justify-content: center;
+table {
+  width: 400px;
+  background: #eee;
 }
 
-.content a{
-  color: #fff;
-  text-decoration: none;
-}
-.content a:hover{
-  color: #000fff;
-}
-.content h3{
-  color: #fff;
-  width: 100%;
-  text-align: left;
-}
-.title {
-  font-weight: 900;
-  text-transform: uppercase;
-  font-family: Gotham;
-  color: #fff;
-  text-shadow: 2px 2px #000;
-}
-
-.title::first-letter{
-  color: #ff0000;
-}
-
-.deposit {
-  width: 90%;
-  text-align: center;
-  align-items: center;
-}
-
-.deposit table {
-  width: 100%;
-  background: #ddd;
-  color: #000;
-}
-
-.deposit th {
-  background: #ff0000;
+th {
+  background: #333;
   color: #fff;
 }
-.deposit table, td, th {
-  text-align: center;
-  border-bottom: solid 1px #000;
+
+table, td, th {
+  border: solid 1px #000;
   border-collapse: collapse;
   padding: 5px;
 }
 
-.deposit tr:nth-child(even) {
-  background: #eee;
+tr:nth-child(even) {
+  background: #ddd;
 }
 
-.deposit table img{
+table img{
   width: 80px;
 }
 
-.deposit form{
-  text-align: left;
-}
-.deposit label {
+label {
   display: block;
-  vertical-align: middle;
 }
 
-.deposit input {
-  width: 60%;
-  text-align: left;
-  height: 20px;
-  vertical-align: middle;
+input {
+  width: 300px;
 }
 
-.deposit input[type="radio"]{
+input[type="radio"]{
   width: auto;
 }
 
-.deposit select{
-  width: 60%;
-  vertical-align: middle;
+select{
+  width: 300px;
 }
