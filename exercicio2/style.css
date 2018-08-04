@@ -1,0 +1,70 @@
+body {
+  display: grid;
+  margin: 0px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+
+header {
+  background: rgb(190, 44, 69);
+  padding: 15px;
+  color: rgb(254, 201, 210);
+  font-weight: bold;
+}
+
+header form{
+  position: absolute;
+  right: 40px;
+}
+
+header form,h1,div {
+  display: inline;
+}
+nav {
+  background: rgb(83, 37, 55);
+  padding: 10px;
+  position: sticky;
+}
+
+nav a{
+  width: 200px;
+  padding: 10px;
+  color: rgb(223, 160, 184);
+  text-decoration: none;
+}
+
+.pizza {
+  background: url('img/pizza.png');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.pizza .title{
+  background: rgb(215, 91, 72);
+  color: rgba(254, 215, 219);
+  padding: 5px;
+  font-size: 60px;
+  position: absolute;
+  bottom: 220px;
+  left: 40px;
+}
+.cardapio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-column-gap: 40px;
+  padding: 40px;
+  color:rgb(190, 44, 69) ;
+}
+
+.cardapio img{
+  width: 100%;
+}
+
+footer {
+  background: rgb(84,119,121);
+  width: auto;
+  color: rgb(219, 251, 254);
+  padding: 10px;}
