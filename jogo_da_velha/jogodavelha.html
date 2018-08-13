@@ -1,0 +1,38 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body onload="startGame()">
+<div class="tabuleiro">
+  <table>
+      <tr>
+        <td id="0" onclick="jogar(0)"></td>
+        <td id="1" onclick="jogar(1)"></td>
+        <td id="2" onclick="jogar(2)"></td>
+      </tr>
+      <tr>
+        <td id="3" onclick="jogar(3)"></td>
+        <td id="4" onclick="jogar(4)"></td>
+        <td id="5" onclick="jogar(5)"></td>
+      </tr>
+      <tr>
+        <td id="6" onclick="jogar(6)"></td>
+        <td id="7" onclick="jogar(7)"></td>
+        <td id="8" onclick="jogar(8)"></td>
+      </tr>
+    </table>
+    <div id="current" onclick="startGame()"></div>
+
+    <div id="playAgain" onclick="startGame()">PLAY AGAIN</div>
+</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
