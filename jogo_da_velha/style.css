@@ -4,6 +4,8 @@ body {
   font-size: 16px;
   font-family: SuperMario256;
   color: #fff;
+  text-shadow: 1px 1px 2PX #333;
+
 }
 
 @font-face {
@@ -11,60 +13,60 @@ body {
     src: url('assets/fonts/SuperMario256.ttf');
 }
 
+a {
+  cursor: pointer;
+  color: #f8f82b;
+
+}
 @font-face {
     font-family: SuperMarioWorld;
     src: url('assets/fonts/Super-Mario-World.ttf');
 }
-
-.tabuleiro {
+.centered {
+  position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+  margin:auto;
+}
+#tabuleiro {
   background: url('assets/img/tab.png');
   width: 300px;
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
-  position:absolute;
-    left:0; right:0;
-    top:0; bottom:0;
-  margin:auto;
+  display: none;
 }
 table {
   width: 200px;
   height: 200px;
   border-collapse: collapse;
   border-style: hidden;
-	position:absolute;
-    left:0; right:0;
-    top:0; bottom:0;
-	margin: auto;
-  margin-top: 36px;
-  margin-left: 44px;
+  margin-top: 36px !important;
+  margin-left: 44px !important;
   color: transparent;
 }
-#current{
+.current{
   position: absolute;
   height: 35px;
   left:0; right:0;
   bottom:10px;
   margin:auto;
-  text-shadow: 1px 1px 2PX #333;
 }
 
-#current img{
+.current img{
   width: 16px;
   margin-bottom: -2px;
   margin-right: 5px;
+  margin-left: 5px;
 }
 
 #playAgain {
-  cursor: pointer;
   font-size: 12px;
   position: absolute;
   line-height: 35px;
   left:0; right:0;
   bottom:-30px;
   margin:auto;
-  text-shadow: 1px 1px 2PX #333;
-  color: #f8f82b;
   font-family: SuperMarioWorld;
   display: none;
 }

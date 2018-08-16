@@ -6,10 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jogo da Velha</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
-<body onload="startGame()">
-<div class="tabuleiro">
-  <table>
+<body>
+  <a id="play" class="centered" onclick="play()" style="font-size: 50px; width: 200px; height: 30px;"> JOGAR </a>
+<div id="tabuleiro" class="centered">
+  <table class="centered">
       <tr>
         <td id="0" onclick="jogar(0)"></td>
         <td id="1" onclick="jogar(1)"></td>
@@ -26,9 +29,11 @@
         <td id="8" onclick="jogar(8)"></td>
       </tr>
     </table>
-    <div id="current" onclick="startGame()"></div>
+    <div class="current" id="current"></div>
 
-    <div id="playAgain" onclick="startGame()">PLAY AGAIN</div>
+    <a id="playAgain" onclick="startGame()">PLAY AGAIN</a>
+<div class="current centered" id="points" style="margin-right: -100px; z-index: 0;width: 100px;"></div>
+
 </div>
   <script src="main.js"></script>
 </body>
